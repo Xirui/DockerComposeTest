@@ -1,0 +1,8 @@
+javaclient:
+  build: .
+  command: java HelloWorld
+  links:
+    - redis
+redis:
+  image: redis
+  
